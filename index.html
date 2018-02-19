@@ -2,24 +2,39 @@
 <html>
   <head>
     <style>
-body{
-background-color: #8c8c8c
+.vertical-menu {
+    width: 300px;
+    font-size: 20px;
+height: 400px;
+}
 
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
 }
-.hs {
-  width: 400px;
-  height: 310px;
+
+.vertical-menu a:hover {
+    background-color: #ccc;
 }
-.ms {
-  width: 400px;
-  height: 310px;
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
 }
     </style>
     <meta charset="utf-8">
     <title>koti_main</title>
   </head>
   <body>
-    <a href="highschool.html"><img class="hs" src="https://lh3.google.com/u/0/d/1zagc8OPDK0F6FF0MN3ozpy9c4eeeTMSU=w1366-h637-iv1"></a>
-    <a href="midschool.html"><img class="ms" src="https://lh3.google.com/u/0/d/1lHYhpld1s1gGkO4rUByDciPQV4KJbfXb=w1366-h637-iv1"></a>
+    <center>
+    <div class="vertical-menu">
+      <a href="#" class="active"><b>choose your school</b></a>
+      <a href="#"><b>חטיבה</b></a>
+      <a href="#"><b>תיכון</b></a>
+    </div>
+</center>
   </body>
 </html>
